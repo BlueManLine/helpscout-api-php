@@ -8,22 +8,22 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'previousStart' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'previousEnd' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'sites' => array(
-                'location' => 'query'
-            )
-        )
-    )
+                'location' => 'query',
+            ),
+        ),
+    ),
 
 );

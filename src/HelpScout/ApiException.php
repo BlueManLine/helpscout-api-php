@@ -1,19 +1,20 @@
 <?php
+
 namespace HelpScout;
 
-class ApiException extends \Exception {
+class ApiException extends \Exception
+{
+    protected $errors = array();
 
-	protected $errors = array();
+    public function getErrors()
+    {
+        return $this->errors;
+    }
 
-	public function getErrors()
-	{
-		return $this->errors;
-	}
+    public function setErrors(array $errors = array())
+    {
+        $this->errors = $errors;
 
-	public function setErrors(array $errors = array())
-	{
-		$this->errors = $errors;
-		return $this;
-	}
-
+        return $this;
+    }
 }

@@ -1,4 +1,5 @@
 <?php
+
 include_once 'ApiClient.php';
 
 use HelpScout\ApiClient;
@@ -20,4 +21,3 @@ $thread->setCreatedBy($client->getUserRefProxy(4));
 $client->createThread($conversationId, $thread);
 
 echo $thread->getId();
-

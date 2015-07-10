@@ -1,4 +1,5 @@
 <?php
+
 include_once 'ApiClient.php';
 
 use HelpScout\ApiClient;
@@ -13,7 +14,6 @@ $client->setKey('example-key');
 // All I have is an email address. This may or may not be an existing customer.
 // Either way, Help Scout will create the customer if the customer does not yet exist.
 $customerRef = $client->getCustomerRefProxy(null, 'customer@example.com');
-
 
 // 2. Decide which mailbox this conversation will be created in
 $mailboxRef = $client->getMailboxProxy(2431);

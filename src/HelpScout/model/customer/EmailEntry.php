@@ -1,6 +1,7 @@
 <?php
+
 namespace HelpScout\model\customer;
 
-class EmailEntry extends CustomerEntry {
-	
+class EmailEntry extends CustomerEntry
+{
 }

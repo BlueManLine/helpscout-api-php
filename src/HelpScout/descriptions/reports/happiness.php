@@ -8,35 +8,35 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'previousStart' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'previousEnd' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
-            )
-        )
+                'required' => true,
+            ),
+        ),
     ),
 
     'getHappinessRatingsReport' => array(
@@ -45,39 +45,39 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'page' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'rating' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'sortField' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'sortOrder' => array(
-                'location' => 'query'
-            )
-        )
-    )
+                'location' => 'query',
+            ),
+        ),
+    ),
 
 );

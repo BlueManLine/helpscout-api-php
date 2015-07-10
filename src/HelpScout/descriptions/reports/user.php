@@ -8,35 +8,35 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'previousStart' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'previousEnd' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
-            )
-        )
+                'required' => true,
+            ),
+        ),
     ),
 
     'getUserConversationHistoryReport' => array(
@@ -45,39 +45,39 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'page' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'sortField' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'sortOrder' => array(
-                'location' => 'query'
-            )
-        )
+                'location' => 'query',
+            ),
+        ),
     ),
 
     'getUserCustomersHelpedReport' => array(
@@ -86,38 +86,38 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'previousStart' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'previousEnd' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'viewBy' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
-            )
-        )
+                'required' => true,
+            ),
+        ),
     ),
 
     'getUserDrillDownReport' => array(
@@ -126,31 +126,31 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'page' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'rows' => array(
-                'location' => 'query'
-            )
-        )
+                'location' => 'query',
+            ),
+        ),
     ),
 
     'getUserRepliesReport' => array(
@@ -159,38 +159,38 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'previousStart' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'previousEnd' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'viewBy' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
-            )
-        )
+                'required' => true,
+            ),
+        ),
     ),
 
     'getUserResolutionsReport' => array(
@@ -199,38 +199,38 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'previousStart' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'previousEnd' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'viewBy' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
-            )
-        )
+                'required' => true,
+            ),
+        ),
     ),
 
     'getUserHappinessReport' => array(
@@ -239,35 +239,35 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'previousStart' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'previousEnd' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
-            )
-        )
+                'required' => true,
+            ),
+        ),
     ),
 
     'getUserRatingsReport' => array(
@@ -276,43 +276,43 @@ return array(
         'parameters' => array(
             'start' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'end' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'mailboxes' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'tags' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'types' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'folders' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'user' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'page' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'rating' => array(
                 'location' => 'query',
-                'required' => true
+                'required' => true,
             ),
             'sortField' => array(
-                'location' => 'query'
+                'location' => 'query',
             ),
             'sortOrder' => array(
-                'location' => 'query'
-            )
-        )
-    )
+                'location' => 'query',
+            ),
+        ),
+    ),
 
 );
